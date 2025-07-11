@@ -60,7 +60,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="pyqtgraphtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mic stectrograme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="visualsong" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +74,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqtgraphtest.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\isaac\Documents\programation\visualsong\mic stectrograme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pyqtgraphtest" />
+        <item itemvalue="Python.mic stectrograme" />
       </list>
     </recent_temporary>
   </component>
