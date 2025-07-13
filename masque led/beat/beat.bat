@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0"
 REM === Vérification de Python ===
 python --version >nul 2>&1
 
