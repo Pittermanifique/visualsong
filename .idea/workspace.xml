@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f028c073-9f6c-4189-997a-66c46d8b02af" name="Changes" comment="ca fontion envoie a l'esp 32 des beat plus affichage en direct" />
+    <list default="true" id="f028c073-9f6c-4189-997a-66c46d8b02af" name="Changes" comment="ca fontion envoie a l'esp 32 des beat plus affichage en direct">
+      <change afterPath="$PROJECT_DIR$/beat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortie spectrogramme.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortie spectrogramme.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pittermanifique"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Pittermanifique/visualsong.git",
+    "accountId": "2b2d30ae-02ed-4bbe-b035-df8afb053878"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -31,8 +47,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.beat.executor": "Run",
     "Python.com esp 32.executor": "Run",
     "Python.detection des sorties.executor": "Run",
+    "Python.mic stectrograme.executor": "Run",
     "Python.pyqtgraphtest.executor": "Run",
     "Python.sortie spectrogramme.executor": "Run",
     "Python.testpyaudio.executor": "Run",
@@ -55,6 +73,29 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="mic stectrograme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="visualsong" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\isaac\Documents\programation\visualsong\mic stectrograme.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mic stectrograme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="visualsong" />
       <option name="ENV_FILES" value="" />
@@ -101,7 +142,8 @@
       <updated>1752159328585</updated>
       <workItem from="1752159329637" duration="8617000" />
       <workItem from="1752235401432" duration="1501000" />
-      <workItem from="1752248597559" duration="16091000" />
+      <workItem from="1752248597559" duration="16904000" />
+      <workItem from="1752417063972" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="sperctrometter en direct">
       <option name="closed" value="true" />
@@ -135,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752365911892</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ca fontion envoie a l'esp 32 des beat plus affichage en direct">
+      <option name="closed" value="true" />
+      <created>1752366552944</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752366552944</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +198,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="ca fontion envoie a l'esp 32 des beat plus affichage en direct" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/visualsong$mic_stectrograme.coverage" NAME="mic stectrograme Coverage Results" MODIFIED="1752419418794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualsong$com_esp_32.coverage" NAME="com esp 32 Coverage Results" MODIFIED="1752365308797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visualsong$beat.coverage" NAME="beat Coverage Results" MODIFIED="1752419440606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualsong$sortie_spectrogramme.coverage" NAME="sortie spectrogramme Coverage Results" MODIFIED="1752365707631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualsong$testpyaudio.coverage" NAME="testpyaudio Coverage Results" MODIFIED="1752235602562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualsong$detection_des_sorties.coverage" NAME="detection des sorties Coverage Results" MODIFIED="1752163191015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />

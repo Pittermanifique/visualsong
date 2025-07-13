@@ -22,7 +22,7 @@ HIST_SEC       = 1.0
 HISTORY_FRAMES = int(HIST_SEC / (HOP / RATE))  # env. 171 frames
 K_HIGH         = 1.3
 K_LOW          = 0.8
-MIN_INTERVAL   = 0.18      # 100 ms entre deux beats min
+MIN_INTERVAL   = 0.18      # 180 ms entre deux beats min
 
 # Seuil RMS minimal pour autoriser la détection (ajuster selon votre micro / loopback)
 RMS_THRESHOLD = 0.01
