@@ -168,7 +168,6 @@ def main():
                     and is_armed \
                     and interval_ok:
 
-                print("KICK détecté")
                 ser.write(b"1\n")
                 last_beat_time = now  # on met à jour le timing
                 is_armed = False  # on désarme jusqu'au prochain rearm
