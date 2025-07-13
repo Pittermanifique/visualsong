@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f028c073-9f6c-4189-997a-66c46d8b02af" name="Changes" comment="création du programe sant aficha avec une execution avec args">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="f028c073-9f6c-4189-997a-66c46d8b02af" name="Changes" comment="création du bat pour le l'esement du programe">
+      <change afterPath="$PROJECT_DIR$/masque led/REEDME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beat.py" beforeDir="false" afterPath="$PROJECT_DIR$/beat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/masque led esp 32/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/masque led esp 32/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/masque led esp 32/include/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/masque led esp 32/lib/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/masque led esp 32/platformio.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/masque led esp 32/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/masque led esp 32/test/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualsong.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +152,7 @@
       <workItem from="1752159329637" duration="8617000" />
       <workItem from="1752235401432" duration="1501000" />
       <workItem from="1752248597559" duration="16904000" />
-      <workItem from="1752417063972" duration="6161000" />
+      <workItem from="1752417063972" duration="7720000" />
     </task>
     <task id="LOCAL-00001" summary="sperctrometter en direct">
       <option name="closed" value="true" />
@@ -193,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752420202697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="création du bat pour le l'esement du programe">
+      <option name="closed" value="true" />
+      <created>1752424932720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752424932720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +221,8 @@
     <MESSAGE value="rename" />
     <MESSAGE value="ca fontion envoie a l'esp 32 des beat plus affichage en direct" />
     <MESSAGE value="création du programe sant aficha avec une execution avec args" />
-    <option name="LAST_COMMIT_MESSAGE" value="création du programe sant aficha avec une execution avec args" />
+    <MESSAGE value="création du bat pour le l'esement du programe" />
+    <option name="LAST_COMMIT_MESSAGE" value="création du bat pour le l'esement du programe" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/visualsong$mic_stectrograme.coverage" NAME="mic stectrograme Coverage Results" MODIFIED="1752419418794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -1,0 +1,34 @@
+
+
+📞 Communication avec le microcontrôleur
+
+Paramètre | Effet
+ --port COM7 | 🚪 Port de communication avec le microcontrôleur, à ajuster en fonction de l'endroit où tu veux le brancher.
+ --baudrate 115200 | 🐇 Vitesse de transfert entre l'ordinateur et le microcontrôleur (pas besoin de changer, sauf cas spécifique).
+
+🎯 Sensibilité à la détection des kicks
+
+
+Paramètre | Effet
+ --k-high | 💥 Sensibilité aux pics — plus cette valeur est petite, plus le système est sensible aux petites variations. Trop petit = risques de faux positifs. Exemple: 1.3 est raisonnable.
+ --k-low | 🔁 Hystérésis pour le réarmement — plus cette valeur est proche de k-high, plus le système se réarme vite (mais peut rebondir). Plus elle est basse, plus la détection est prudente. Exemple: 0.8.
+ --abs-flux-th | 📊 Seuil absolu du flux spectral — si ce seuil est trop élevé, peu de kicks sont détectés. Trop bas = détection même sur du bruit.
+
+
+
+⏱️ Intervalle minimal entre deux détections
+
+Paramètre | Effet
+ --min-interval | ⏳ Temps en secondes entre deux kicks — évite que plusieurs détections soient envoyées trop rapidement. Exemple: 0.18 pour ~1 kick toutes les 180ms. Pour ralentir, augmente à 0.3 ou plus.
+
+
+
+🎵 Fréquences d’analyse (filtre passe-bande)
+
+Paramètre | Effet
+ --bp-low | 🔊 Fréquence minimale analysée — ex: 40.0 Hz
+ --bp-high | 🔊 Fréquence maximale analysée — ex: 80.0 Hz
+ --bp-order | 🔧 Précision du filtre — Ordre plus élevé = filtre plus “pointu”, mais plus sensible au bruit. Valeur typique : 1 ou 2
+
+
+📌 Ces trois paramètres déterminent quelle zone du spectre audio est ciblée pour les kicks. Typiquement, les kicks sont dans la zone 40–100 Hz, donc adapte bp-low / bp-high selon le type de son que tu veux capter.
