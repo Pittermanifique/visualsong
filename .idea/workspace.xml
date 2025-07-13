@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f028c073-9f6c-4189-997a-66c46d8b02af" name="Changes" comment="rename">
-      <change afterPath="$PROJECT_DIR$/com esp 32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortie spectrogramme.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortie spectrogramme.py" afterDir="false" />
-    </list>
+    <list default="true" id="f028c073-9f6c-4189-997a-66c46d8b02af" name="Changes" comment="ca fontion envoie a l'esp 32 des beat plus affichage en direct" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +101,7 @@
       <updated>1752159328585</updated>
       <workItem from="1752159329637" duration="8617000" />
       <workItem from="1752235401432" duration="1501000" />
-      <workItem from="1752248597559" duration="15787000" />
+      <workItem from="1752248597559" duration="16091000" />
     </task>
     <task id="LOCAL-00001" summary="sperctrometter en direct">
       <option name="closed" value="true" />
@@ -131,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752359446003</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ca fontion envoie a l'esp 32 des beat plus affichage en direct">
+      <option name="closed" value="true" />
+      <created>1752365911892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752365911892</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,11 +144,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sperctrometter en direct" />
     <MESSAGE value="rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+    <MESSAGE value="ca fontion envoie a l'esp 32 des beat plus affichage en direct" />
+    <option name="LAST_COMMIT_MESSAGE" value="ca fontion envoie a l'esp 32 des beat plus affichage en direct" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/visualsong$com_esp_32.coverage" NAME="com esp 32 Coverage Results" MODIFIED="1752365308797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/visualsong$sortie_spectrogramme.coverage" NAME="sortie spectrogramme Coverage Results" MODIFIED="1752365609277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/visualsong$sortie_spectrogramme.coverage" NAME="sortie spectrogramme Coverage Results" MODIFIED="1752365707631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualsong$testpyaudio.coverage" NAME="testpyaudio Coverage Results" MODIFIED="1752235602562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/visualsong$detection_des_sorties.coverage" NAME="detection des sorties Coverage Results" MODIFIED="1752163191015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/visualsong$pyqtgraphtest.coverage" NAME="pyqtgraphtest Coverage Results" MODIFIED="1752235428336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
