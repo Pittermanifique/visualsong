@@ -1,5 +1,6 @@
 import sys
 import time
+import serial
 import numpy as np
 import pyaudiowpatch as pa
 import pyqtgraph as pg
@@ -8,6 +9,8 @@ from PyQt6.QtCore import QTimer
 from PyQt6.QtGui import QBrush, QColor
 from scipy.signal import butter, lfilter
 
+#initialisation serie pour la comunication avec l'esp 32
+ser = serial.Serial(port="COM7", baudrate=115200)
 
 # 1. Paramètres audio
 RATE   = 44100
@@ -147,14 +150,17 @@ def update_spectrum():
 
         if ok_kick:
             beat.setBrush(QBrush(QColor("green")))  # KICK confirmé
+            ser.write(b"1\n")
         else:
             beat.setBrush(QBrush(QColor("red")))  # KICK non validé
+            ser.write(b"0\n")
 
         is_armed = False
 
     elif (flux < low and (now - last_beat_time) > MIN_INTERVAL):
         is_armed = True
         beat.setBrush(QBrush(QColor("red")))  # trop faible, reset
+        ser.write(b"0\n")
 
 
     # 7. Mise à jour spectre visuel
