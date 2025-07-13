@@ -1,5 +1,9 @@
 
 
+Pour utiliser ce programe vous pouvez le lancer directement en double-clic sur le fichier beat.bat dans le dosier beat ou vous pouver crée un racoursit en double clic sur le fichier raccourci.
+
+Pour ajuste il faut modifier le fichier beat.bat qui est dans le répertoir beat.
+
 📞 Communication avec le microcontrôleur
 
 Paramètre | Effet
@@ -32,3 +36,10 @@ Paramètre | Effet
 
 
 📌 Ces trois paramètres déterminent quelle zone du spectre audio est ciblée pour les kicks. Typiquement, les kicks sont dans la zone 40–100 Hz, donc adapte bp-low / bp-high selon le type de son que tu veux capter.
+
+pour allez plus loin:
+
+le dosier esp 32 contien un programe pour un esp 32 ce qui vous permet de le modifier ou de le compiler pour l'utiliser.
+
+il est possible rejouter des parametres en plus pour cela lancer un terminal ales dans le dosier beat et tapez la comande 
+"python beat.py --help" tout les parametres s'afficherons.
