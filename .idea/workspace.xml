@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f028c073-9f6c-4189-997a-66c46d8b02af" name="Changes" comment="création du bat pour le l'esement du programe">
-      <change afterPath="$PROJECT_DIR$/masque led/REEDME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/masque led esp 32/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/masque led esp 32/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/masque led esp 32/include/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/masque led esp 32/lib/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/masque led esp 32/platformio.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/masque led esp 32/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/masque led esp 32/test/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualsong.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +23,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Pittermanifique"
-  }
+  "lastFilter": {}
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Pittermanifique/visualsong.git",
-    "accountId": "2b2d30ae-02ed-4bbe-b035-df8afb053878"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pittermanifique/visualsong.git&quot;,
+    &quot;accountId&quot;: &quot;2b2d30ae-02ed-4bbe-b035-df8afb053878&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -53,29 +39,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.beat.executor": "Run",
-    "Python.com esp 32.executor": "Run",
-    "Python.detection des sorties.executor": "Run",
-    "Python.mic stectrograme.executor": "Run",
-    "Python.pyqtgraphtest.executor": "Run",
-    "Python.sortie spectrogramme.executor": "Run",
-    "Python.testpyaudio.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.beat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.com esp 32.executor&quot;: &quot;Run&quot;,
+    &quot;Python.detection des sorties.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mic stectrograme.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pyqtgraphtest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sortie spectrogramme.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testpyaudio.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\isaac\Documents\programation\visualsong" />
@@ -153,6 +139,7 @@
       <workItem from="1752235401432" duration="1501000" />
       <workItem from="1752248597559" duration="16904000" />
       <workItem from="1752417063972" duration="7720000" />
+      <workItem from="1752433790522" duration="1812000" />
     </task>
     <task id="LOCAL-00001" summary="sperctrometter en direct">
       <option name="closed" value="true" />
